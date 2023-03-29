@@ -24,13 +24,15 @@ let buf = Buffer.alloc(6)
 // indexOf
 // buf = Buffer.from('zce爱前端，爱拉勾教育， 爱大家， 我爱所有')
 // console.log(buf)
-// console.log(buf.indexOf('爱ac', 4))
+// console.log(buf.indexOf('爱', 16))
 
 // copy
-let b1 = Buffer.alloc(6)
-let b2 = Buffer.from('拉勾')
+// let b1 = Buffer.alloc(6)
+// let b2 = Buffer.from('拉勾')
 
-b2.copy(b1, 3, 3, 5)
+// b2.copy(b1, 3, 3, 5)
 
-console.log(b1.toString())
-console.log(b2.toString())
+// console.log(b1.toString())
+// console.log(b2.toString())
+let len = Buffer.from('测试').length
+console.log(len)
