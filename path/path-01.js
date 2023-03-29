@@ -75,5 +75,5 @@ const path = require('path')
  * resolve([from], to)
  */
 // console.log(path.resolve())
-// console.log(path.resolve('a', 'b'))
+console.log(path.resolve('a', 'b'))
 console.log(path.resolve('index.html'))
