@@ -37,8 +37,8 @@ const path = require('path')
 
 // watchFile()
 fs.watchFile('data.txt', {interval: 20}, (curr, prev)=>{
-   if(curr.mtime !== prev.mtime){
-    console.log('文件被修改了')
-    fs.unwatchFile('data.txt')
-   }
+   // if(curr.mtime !== prev.mtime){
+   //  console.log('文件被修改了')
+   //  fs.unwatchFile('data.txt')
+   // }
 })

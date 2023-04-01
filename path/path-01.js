@@ -60,7 +60,8 @@ const path = require('path')
 // console.log(path.isAbsolute('./bar'))
 
  // 7、拼接路径
-//  console.log(path.join('a/b/c', 'c', 'index.html'))
+ console.log(path.join('a/b/c', 'c', 'index.html'))
+ console.log(process.argv0)
 //  console.log(path.join('/a/b/c', 'c', '../', 'index.html'))
 //  console.log(path.join(''))
 
@@ -75,8 +76,8 @@ const path = require('path')
  * resolve([from], to)
  */
 // console.log(path.resolve())
-console.log(path.resolve('a', 'b'))
-console.log(path.resolve('index.html'))
-console.log(path.resolve('index.html'))
-console.log(path.resolve('index.html'))
-console.log(path.resolve('index.html'))
+// console.log(path.resolve('a', 'b'))
+// console.log(path.resolve('index.html'))
+// console.log(path.resolve('index.html'))
+// console.log(path.resolve('index.html'))
+// console.log(path.resolve('index.html'))
