@@ -1,0 +1,24 @@
+{
+  "name": "foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songlindong/node-foundation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songlindong/node-foundation/issues"
+  },
+  "homepage": "https://github.com/songlindong/node-foundation#readme",
+  "dependencies": {
+    "browser-sync": "^2.29.1",
+    "marked": "^4.3.0"
+  }
+}
