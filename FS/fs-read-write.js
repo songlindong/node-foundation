@@ -11,14 +11,14 @@ let buf = Buffer.alloc(10)
  * length 表示当前写入的长度
  * position 表示当前从文件的哪个位置开始读取操作
  */
-// fs.open('data.txt', 'r', (err, rfd) =>{
-//     console.log(rfd)
-//     fs.read(rfd, buf, 1,4,3, (err, readBytes, data)=>{
-//      console.log(readBytes)
-//      console.log(data)
-//      console.log(data.toString())
-//     })
-// })
+fs.open('data.txt', 'r', (err, rfd) =>{
+    console.log(rfd)
+    fs.read(rfd, buf, 1,4,3, (err, readBytes, data)=>{
+     console.log(readBytes)
+     console.log(data)
+     console.log(data.toString())
+    })
+})
 
 
 // write 将缓冲区里的内容写入到磁盘文件中
