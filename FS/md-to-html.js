@@ -14,7 +14,7 @@ const browserSync = require('browser-sync')
 let mdPath = path.join(__dirname, process.argv[2])
 let cssPath  = path.resolve('github.css')
 let htmlPath = mdPath.replace(path.extname(mdPath), '.html')
-
+console.log()
 fs.watchFile(mdPath, (curr, prev) =>{
    if(curr.mtime !== prev.mtime){
     fs.readFile(mdPath, 'utf-8', (err, data) =>{
